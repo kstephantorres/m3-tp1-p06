@@ -47,6 +47,9 @@ const FormularioColores = () => {
                             handleColorChange(event)
                             }}
                         ref={inputRef}
+                        required
+                        minLength={2}
+                        maxLength={20}
                     />
                 </Form.Group>
                 <div className='text-end pe-3'>
